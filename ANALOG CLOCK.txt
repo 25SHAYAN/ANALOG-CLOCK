@@ -1,0 +1,31 @@
+                                                         ANALOG CLOCK  
+
+---> GO TO GOOGLE > INSPECT > CONSOLE > new Date() [FOR GETTING DATE] IF U WANT HOUR  >new Date().getHours()
+
+---->1st make every hand to 12 and calculate angle in theta to wanted time eg 8
+--- for 12 hr --->  360deg
+---- for 1 hr ---> 360/12 = 30deg
+since hr hand moves while min and sec hand rotates we calculate that also(sec hand is negligible)
+
+hr hand calcuation
+----for h hr (30h deg +  m/2)
+---> 60 min >30deg
+--- 1min ---1/2 deg
+----m mins --- m/2 rotation
+
+for min hand 
+--- 60 min -- 36o deg
+--- 1m -->6 deg
+--- m minutes ---> 6m deg
+
+for sec hand
+60secs == 360 deg
+1sec== 6deg
+s sec == 6s deg
+ 
+
+-----------------------------------------------------------
+1. create html css js file in folder
+2. dwld clock img
+3. link css and js file in html
+4. create  a div container and create 3 divs in it for hr,nin,secs
